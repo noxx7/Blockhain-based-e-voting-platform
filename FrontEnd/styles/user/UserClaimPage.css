@@ -1,0 +1,33 @@
+.claim-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Montserrat';
+    height: 80vh;
+
+    h1 {
+        color: white;
+    }
+
+    h3 {
+        margin-top: 1rem;
+        color: #888888;
+    }
+    .claim-btn {
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: #6448b7;
+        padding: 0.5rem 2rem;    
+        font-size: large;
+    }
+    
+    button {
+        margin-top: 2rem;
+    }
+    .claim-btn:hover {
+        background-color: rgb(73, 57, 94);
+    }
+}

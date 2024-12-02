@@ -1,0 +1,28 @@
+.vote-account-tracker {
+    background-color: #1C1C24;
+    border-radius: 8px;
+    padding: 1.5rem;
+    color: white;
+}
+
+.vote-account-tracker__title {
+    color: #9333EA;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.vote-account-tracker__content {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.vote-account-tracker__label {
+    font-size: 0.875rem;
+    color: #A0AEC0;
+}
+
+.vote-account-tracker__value {
+    font-size: 1.125rem;
+    font-weight: bold;
+}

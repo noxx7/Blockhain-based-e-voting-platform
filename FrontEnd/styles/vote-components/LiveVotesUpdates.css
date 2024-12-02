@@ -1,0 +1,38 @@
+.live-vote-updates {
+    background-color: #1C1C24;
+    border-radius: 8px;
+    padding: 1.5rem;
+    color: white;
+}
+
+.live-vote-updates__title {
+    color: #9333EA;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.live-vote-updates__table-container {
+    overflow-x: auto;
+}
+
+.live-vote-updates__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.live-vote-updates__table-header {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 1px solid #2D3748;
+    color: #A0AEC0;
+    font-weight: 600;
+}
+
+.live-vote-updates__table-row:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.live-vote-updates__table-cell {
+    padding: 0.75rem;
+}

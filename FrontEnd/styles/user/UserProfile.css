@@ -1,0 +1,207 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    width: 50rem;
+    padding: 1rem;
+    background-color: black;
+    font-family: 'Roboto';
+
+    .welcome-user {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        .welcome {
+            font-size: 1.4rem;
+            color: #888888;
+        }
+
+        .user-name {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+
+    .profile-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 2rem;
+        border-top: 1px #212121 solid;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        gap: 2rem;
+
+        .user-detail {
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            gap: 0.5rem;
+            width: 20rem;
+
+            .detail {
+                color: #888888;
+                font-size: 1.4rem;
+            }
+
+            .detail-info {
+                color: white;
+                background-color: #212121;
+                padding: 0.7rem;
+                border-radius: 5px;
+            }
+        }
+
+        .wallet-container {
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 50rem;
+
+            a {
+                text-decoration: none;
+                color: #888888;
+                font-size: 1rem;
+                transition: 0.2s ease-in-out;
+            }
+
+            a:hover {
+                color: #c295f7;
+            }
+
+            .wallet-container-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                width: 26.2rem;
+
+                .detail {
+                    color: #888888;
+                    font-size: 1.4rem;
+                }
+
+                .wallet-balance {
+                    color: #888888;
+                }
+            }
+
+            .wallet-connect {
+                display: flex;
+                justify-content: start;
+                flex-direction: row;
+                gap: 1rem;
+                border-radius: 5px;
+
+                .wallet-address {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    background-color: #212121;
+                    width: 26.3rem;
+                    color: white;
+                    border-radius: 5px;
+
+                    .address {
+                        padding: 0.7rem;
+                    }
+                }
+
+                .verify-wallet-btn {
+                    padding: 0.9rem;
+                    background-color: #2e913f;
+                    border: none;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    color: white;
+                    font-family: 'Montserrat';
+                    cursor: pointer;
+                }
+
+                .verify-wallet-btn:hover {
+                    background-color: #0e2e14;
+                }
+                .detail {
+                    color: #888888;
+                    font-size: 1.4rem;
+                }
+
+                .need-fee {
+                    color: white;
+                }
+
+            }
+        }
+
+        .user-vote-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            width: 20rem;
+            gap: 0.5rem;
+            
+            .detail {
+                color: #888888;
+                font-size: 1.4rem;
+            }
+
+            .vote-container-body {
+                display: flex;
+                flex-direction: column;
+                background-color: #212121;
+                padding: 0.7rem;
+                width: 20rem;
+                border-radius: 5px;
+                gap: 0.5rem;
+
+                .history-date {
+                    color: white;
+                    font-size: small;
+                    text-align: right;
+                }
+
+                .vote-direct-link {
+                    font-size: medium;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                .vote-direct-link:hover {
+                    color: #c295f7;
+                }
+
+                .no-data {
+                    color: white;
+                }
+            }
+        }
+
+        .logout-btn-container {
+            width: 10rem;
+
+            .logout-btn {
+                width: 100%;
+                padding: 1rem;
+                background-color: black;
+                color: white;
+                border: 1px solid white;
+                border-radius: 5px;
+                transition: 0.3s ease-in-out;
+                font-size: 1rem;
+            }
+
+            .logout-btn:hover {
+                background-color: #c295f7;
+                color: black;
+                border: none;
+            }
+        }
+    }
+}

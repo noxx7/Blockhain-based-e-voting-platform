@@ -1,0 +1,21 @@
+.candidates-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+    margin-top: 5rem;
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .candidate-container {
+        margin-top: 2rem;
+        padding: 1rem;
+        width: 60rem;
+    }
+}

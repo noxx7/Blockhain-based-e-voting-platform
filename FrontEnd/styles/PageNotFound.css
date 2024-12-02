@@ -1,0 +1,40 @@
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;  
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    font-family: 'Roboto';
+    
+    img {
+        width: 30rem;
+    }
+
+    .not-found-text-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 7rem;
+        }
+        .code {
+            color: white;
+            writing-mode: vertical-rl;
+        }
+    
+        .notfound-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.4rem;
+    
+            span {
+                color: white;
+                font-size: 3rem;
+                color: #ddd;
+            }
+        }
+    }
+}

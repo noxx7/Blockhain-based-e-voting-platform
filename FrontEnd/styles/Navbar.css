@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: 'Roboto';
+}
+
+.selected {
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem 0 4rem;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20rem;
+
+        li {
+            list-style: none;
+            transition: 0.5s ease-in-out;
+            padding: 0.6rem;
+
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 0.7rem;
+                transition: 0.2s ease-in-out;
+                font-size: 1.2rem;
+            }
+        }
+
+        li:hover {
+            background-position: left;
+
+            a {
+                color: #c295f7;
+            }
+        }
+
+        .guest-nav-group {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2rem;
+        }
+        
+        .user-nav-group {
+
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2rem;
+        }
+
+        .admin-nav-group {
+
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2rem;
+            
+            li {
+                list-style: none;
+                transition: 0.5s ease-in-out;
+                padding: 0.6rem;
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 0.7rem;
+                    transition: 0.2s ease-in-out;
+                    font-size: 1.2rem;
+                }
+            }
+    
+            li:hover {
+                background-position: left;
+    
+                a {
+                    color: #c295f7;
+                }
+            }
+        }
+    }
+}
+
+#logo {
+    width: 8rem;
+}
+
+#nav-connectWallet-btn {
+    margin-top: 0.4rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background: linear-gradient(90deg, white 50%, black 50%);
+    background-size: 21rem;
+    background-position: right;
+    color: white;
+    transition: 0.3s ease-in-out;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#nav-connectWallet-btn:hover {
+    background-position: left;
+    color: black;
+}
